@@ -255,8 +255,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dukehug' },
-      { icon: 'x', link: 'https://x.com/DukeHsuPh' }
-
+      { icon: 'x', link: 'https://x.com/DukeHsuPh' },
+      { icon: 'facebook', link: 'https://www.facebook.com/DukeHsuPh'}
     ]
   }
 })
