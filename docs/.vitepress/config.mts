@@ -178,7 +178,22 @@ export default defineConfig({
   description: 'A cleaner, faster way to use Blackboard Ultra.',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }],
-    ['meta', { name: 'theme-color', content: '#167568' }]
+    ['meta', { name: 'theme-color', content: '#167568' }],
+    // GA4
+    ['script', {
+      async: '',
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-CGSSCBT4DB'
+    }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'G-CGSSCBT4DB');
+    `]
   ],
   sitemap: {
     hostname: siteUrl,

@@ -2,7 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 title: BB Better Layout
-description: Make Blackboard Ultra cleaner and faster with better navigation, keyboard shortcuts, notes, schedules, and reading themes.
+description: BB Better Layout is a browser extension that gives Blackboard Ultra cleaner navigation, custom shortcuts, local notes, weekly schedules, and reading themes.
 ogImage: /og/home.png
 
 hero:
@@ -11,17 +11,17 @@ hero:
   tagline: Make Blackboard cleaner, faster, and easier to use.
   actions:
     - theme: brand
-      text: Install from Chrome Web Store
+      text: Install for Chrome
       link: https://chromewebstore.google.com/detail/bb-better-layout-for-adam/pbnangjmldocmbkogkophjbobmnnppki?hl=en
     - theme: alt
-      text: Firefox Addons
+      text: Install for Firefox
       link: https://addons.mozilla.org/fy-NL/firefox/addon/bb-better-layout-for-adamson/
     - theme: alt
-      text: Guide
+      text: Read the Guide
       link: /Introduction/getting-started
   image:
     src: /bb_better_layout_logo_large.png
-    alt: BB-Better-Layout
+    alt: BB Better Layout extension logo
 
 features:
   - icon:
@@ -29,27 +29,27 @@ features:
       alt: Course banner
       width: 32
       height: 32
-    title: Simple Course Banner
-    details: Keep the most important course information in view.
+    title: Clear Course Banners
+    details: See essential course information at a glance.
   - icon:
       src: /icons/keyboard.png
       alt: Keyboard shortcuts
       width: 32
       height: 32
     title: Keyboard Shortcuts
-    details: Customize your navigation keys
+    details: Set shortcuts for navigation, course switching, and search.
   - icon:
       src: /icons/palette.png
       alt: Appearance palette
       width: 32
       height: 32
     title: Appearance
-    details: Choose from nine comfortable color themes.
+    details: Choose from nine comfortable reading themes.
   - icon:
       src: /icons/text-search.png
       alt: Course Search
       width: 32
       height: 32
-    title: Smoother Workflow
-    details: Use a weekly schedule, Study Note, and more.
+    title: Built-in Study Tools
+    details: Keep Study Note and your weekly schedule inside Blackboard.
 ---
