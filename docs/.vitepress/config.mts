@@ -249,7 +249,7 @@ export default defineConfig({
     sidebar: createDocsSidebar(),
 
     footer: {
-      message: 'Built for students using Blackboard Ultra. <a href="/About/Privacy.html">Privacy</a> · <a href="/About/MIT-License.html">MIT License</a>',
+      message: 'Made with ❤️ by Duke Hsu  · <a href="/About/Privacy.html">Privacy</a> · <a href="/About/MIT-License.html">MIT License</a>',
       copyright: 'Copyright © 2026 Duke Hsu'
     },
 
